@@ -1,0 +1,30 @@
+=/pretest.json
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-sa1-4-input-priority-encoder-circuit-nitk/exp-sa1-4-input-priority-encoder-circuit-nitk/experiment/pretest.json'
+  ],
+  files: [
+    '/home/runner/work/exp-sa1-4-input-priority-encoder-circuit-nitk/exp-sa1-4-input-priority-encoder-circuit-nitk/experiment/pretest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/posttest.json
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-sa1-4-input-priority-encoder-circuit-nitk/exp-sa1-4-input-priority-encoder-circuit-nitk/experiment/posttest.json'
+  ],
+  files: [
+    '/home/runner/work/exp-sa1-4-input-priority-encoder-circuit-nitk/exp-sa1-4-input-priority-encoder-circuit-nitk/experiment/posttest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
