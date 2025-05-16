@@ -12,14 +12,14 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": "A decimal-to-BCD encoder has 10 inputs, corresponding to the decimal digits 0 through 9, which are encoded into their Binary Coded Decimal (BCD) representation.",
         "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "If we record any music in any recorder, such types of process is called _____________ .",
+      "question": "The process of recording music on any recorder is called  _____________ .",
       "answers": {
         "a": "Multiplexing",
         "b": "Encoding",
@@ -28,7 +28,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "Recording music in a recorder involves converting analog signals into a digital format, which is called encoding.",
         "c": "",
         "d": ""
       },
@@ -44,7 +44,7 @@
         "d": "Clock"
       },
       "explanations": {
-        "a": "",
+        "a": "The discrepancy of a 0 output due to all inputs being 0 or D0 being 0 is resolved by using an enable input, which allows the circuit to function correctly only when enabled.",
         "b": "",
         "c": "",
         "d": ""
@@ -53,7 +53,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "Can an encoder be called a multiplexer?",
+      "question": "Can an encoder be refered as a multiplexer?",
       "answers": {
         "a": "Yes",
         "b": "No",
@@ -62,7 +62,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "An encoder is not a transducer because it does not convert one form of energy to another (like a traditional transducer); it only converts input data to a different format (e.g., from decimal to binary).",
         "c": "",
         "d": ""
       },
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Encoder does which of the following",
+      "question": "Among the following options, what is the function of an encoder?",
       "answers": {
         "a": "Assigns quantized values",
         "b": "Changes quantized to binary values",
@@ -79,7 +79,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "An encoder converts quantized input values into their corresponding binary representation, effectively changing them into binary values.",
         "c": "",
         "d": ""
       },
