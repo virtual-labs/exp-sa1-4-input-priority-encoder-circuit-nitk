@@ -1,43 +1,43 @@
-### Theory
+### Introduction
 
-### Priority Encoder :
+### Priority Encoder 
 
-In Digital Electronics, the binary encoders are the multi-input combinational logic circuits, which consider all the input lines simultaneously and then convert them into an equivalent single encoded output. An n-bit digital encoder contains 2^n input lines and n output lines. To overcome the disadvantages of binary encoders, priority encoders were developed that work based on the highest priority input. In most digital applications, these encoders are used to select the inputs, which have the highest priority level.
+<p style="text-align:justify;">In Digital Electronics, binary encoders are multi-input combinational logic circuits that process all input lines at once and convert them into a corresponding single encoded output. An n-bit digital encoder has 2^n input lines and n output lines. To address the limitations of binary encoders, priority encoders were introduced, which operate based on the highest priority input. These priority encoders are commonly used in digital applications to select the input with the highest priority.</p>
 
-### 4 to 2 priority encoder :
+### 4 to 2 priority encoder 
 
-This is also referred to as 4- bit priority, which consists of 4 inputs and 2 output lines. Since an encoder contains 2^n input lines and n output lines. The third output is 'V', which is considered as a valid but indicator and it is set to 1 when more than one input line is high or active (1). If the valid bit is equal to '0', then all the inputs are '0'. In this case, the other 2 output lines are considered as don't care conditions denoted by 'X'.
+<p style="text-align:justify;">This is also known as a 4-bit priority encoder, which has 4 input lines and 2 output lines. Since an encoder typically has 2<sup>n</sup> input lines and n output lines, the third output, labeled 'V', serves as a valid bit indicator. It is set to 1 when more than one input line is high (active, 1). If the valid bit is 0, it indicates that all input lines are low (0), and in this case, the other two output lines are treated as don't care conditions, represented by</p>
 
 <center><img src="./images/circuit.jpeg"/></center>
 <center>Fig 1: Circuit for 4x2 Priority Encoder</center>
 
-### Truth Table :
+#### Truth Table 
 
-A truth table for 4-input priority encoder with D0, D1, D2 and D3 as inputs and A0, A1 and V as the outputs is shown below.
+<p style="text-align:justify;">A truth table for 4-input priority encoder with D0, D1, D2 and D3 as inputs and A0, A1 and V as the outputs is shown below.</p>
 
 <center><img src="./images/truth-table.png"/></center>
 <center>Fig 2: Truth Table for 4x2 Priority Encoder</center>
 
-### K-Map :
+#### K-Map 
 
-From the truth table we can see that D0,D1,D2 and DE are inputs lines and A,B are the output lines and V is a valid Indicator line.The D3 has highest priority and D0 had Lowest priority. We can find the equation of output from K-Map as below.
+<p style="text-align:justify;">From the truth table, we observe that D0, D1, D2, and D3 are the input lines, while A and B are the output lines, and V is the valid indicator line. D3 has the highest priority, and D0 has the lowest priority. The output equations can be derived from the K-map as shown below.</p>
 
 <center><img src="./images/tt2.webp"/></center>
 <center>Fig 3: K map for a 4x2 Priority Encoder</center>
 
-Equations derived are:
+<p style="text-align:justify;">Equations derived are:</p>
 
-A = D3 + D1D2'
+<p style="text-align:justify;">A = D3 + D1D2'</p>
 
-B = D2 + D3
+<p style="text-align:justify;">B = D2 + D3</p>
 
-V = D0 + D1+ D2 + D3
+<p style="text-align:justify;">V = D0 + D1+ D2 + D3</p>
 
-### Applications :
+### Applications 
 
-Some of the applications of priority encoder are,
+<p style="text-align:justify;">Few applications of priority encoder are as follows:</p>
 
-1. It is used to reduce the number of wires and connections required for electronic circuit designing that have multiple input lines. Example keypads and keyboards.
+1. Priority encoder is used to reduce the number of wires and connections required for electronic circuit designing that have multiple input lines. Example keypads and keyboards.
 2. Used in controlling the position in the ship's navigation and robotics arm position.
 3. Used in the detection of highest priority input in various applications of microprocessor interrupt controllers.
 4. Used to protect the entire network from hackers by transmitting the binary code over the network.
@@ -48,27 +48,27 @@ Some of the applications of priority encoder are,
 9. Used in hospitals for health monitoring systems.
 10. Used in secure communication systems with RF technology to enable secret code.
 
-### Stuck at fault in circuits :
+### Stuck at fault in circuits 
 
-Basically a stuck at fault is a structural level fault. In this we take a circuit as a net list, typically at the level of gates and flip-flops. In this Fault there are some assumptions
+<p style="text-align:justify;">A stuck-at fault is essentially a structural-level fault. In this case, the circuit is represented as a netlist, typically at the gate and flip-flop level. This fault involves certain assumptions, such as:</p>
 
-- The blocks are fault-free.
-- The Interconnections between gates is faulty.
+1. The blocks are fault-free.
+2. The Interconnections between gates is faulty.
 
-In stuck at fault we assume that some of the lines are permanently stuck at logic '0' or logic '1'. It's a very popular fault model.
+<p style="text-align:justify;">In a stuck-at fault, we assume that some of the lines are permanently fixed at either logic '0' or logic '1'. It is one of the most widely used fault models.</p>
 
-Fault in a line A is denoted as : A s-a-0 or A/0 and A s-a-1 or A/1.
+<p style="text-align:justify;">Fault in a line A is denoted as : A s-a-0 or A/0 and A s-a-1 or A/1.</p>
 
-In our circuit we can see that there are 4 input lines, D0, D1, D2 and D3. If we consider the stuck at faults one at a time, we get the following possibilities - D0/0, D0/1, D1/0, D1/1, D2/0, D2/1, D3/0, D3/1, So 8 single stuck at faults are present.
+<p style="text-align:justify;"In our circuit, there are 4 input lines: D0, D1, D2, and D3. When considering the stuck-at faults one by one, the following possibilities arise: D0/0, D0/1, D1/0, D1/1, D2/0, D2/1, D3/0, and D3/1. Therefore, there are 8 single stuck-at faults in total.</p>
 
-#### 1. Single stuck at fault :
+#### 1. Single stuck at fault 
 
-only one of the lines is taken as stuck at fault at a time. This is the most widely used technique. If our circuit consists of K number of wires, then number of single stuck at faults is 2K.
+<p style="text-align:justify;">Only one line is considered to be stuck-at fault at a time, which is the most commonly used technique. If the circuit contains K wires, the total number of single stuck-at faults will be 2K.</p>
 
-#### 2. Multiple stuck at fault :
+#### 2. Multiple stuck at fault 
 
-Any number of circuit lines can be at stuck at fault. For a circuit consisting of K lines the number of Multiple stuck at faults is ((3<sup>K</sup>)-1).
+<p style="text-align:justify;">Any number of circuit lines can experience a stuck-at fault. For a circuit with K lines, the number of multiple stuck-at faults is given by (3<sup>K</sup>) - 1..</p>
 
-##### Some results :
+##### Results 
 
-A test that detect all single stuck at faults detects large percentage of Multiple stuck at faults(>95%).
+<p style="text-align:justify;">A test that detects all single stuck-at faults can identify a significant percentage of multiple stuck-at faults, often more than 95%.</p>

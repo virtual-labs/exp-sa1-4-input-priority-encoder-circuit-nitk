@@ -12,7 +12,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": " For each wire in the circuit, there can be two types of stuck-at faults (Stuck-at-0 and Stuck-at-1). Hence, for N wires, the maximum number of single stuck-at faults possible is 2N.",
         "d": ""
       },
       "correctAnswer": "c",
@@ -27,7 +27,7 @@
         "d": "((3^N) + 1)"
       },
       "explanations": {
-        "a": "",
+        "a": " For N wires, each wire can have three possible states (stuck-at-0, stuck-at-1, or no fault). For multiple stuck-at faults, the maximum possible combinations are 3^N, excluding the case where no faults occur, hence (3^N - 1).",
         "b": "",
         "c": "",
         "d": ""
@@ -47,7 +47,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "In a 4-to-2 priority encoder, the output is determined by the highest priority input. If D3 is active, it takes precedence, and the correct outputs are D3 + D1D2' for the first output, and D2 + D3 for the second."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -59,7 +59,7 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
+        "a": "In a priority encoder, if two inputs are active, the higher-priority input (higher value) will be encoded on the output, as it takes precedence over the lower-priority input.",
         "b": ""
       },
       "correctAnswer": "a",
@@ -76,7 +76,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": "Both A/1 and A s-a-1 can be used to represent a Stuck-at-1 (SA1) fault, where the signal is permanently stuck at logic 1.",
         "d": ""
       },
       "correctAnswer": "c",
