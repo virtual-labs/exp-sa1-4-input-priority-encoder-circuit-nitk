@@ -1,0 +1,48 @@
+
+/home/runner/work/exp-sa1-4-input-priority-encoder-circuit-nitk/exp-sa1-4-input-priority-encoder-circuit-nitk/experiment/simulation/js/script.js
+    1:10  warning  'refreshPage' is defined but never used     no-unused-vars
+   79:10  warning  'faulta' is defined but never used          no-unused-vars
+  132:14  warning  'i' is already defined                      no-redeclare
+  136:18  warning  'j' is already defined                      no-redeclare
+  154:8   warning  'i' is not defined                          no-undef
+  154:15  warning  'i' is not defined                          no-undef
+  154:22  warning  'i' is not defined                          no-undef
+  155:47  warning  'i' is not defined                          no-undef
+  156:11  warning  'i' is not defined                          no-undef
+  166:10  warning  'switchClick' is defined but never used     no-unused-vars
+  184:3   warning  'WaveDrom' is not defined                   no-undef
+  187:10  warning  'updateTable' is defined but never used     no-unused-vars
+  197:12  warning  'j' is already defined                      no-redeclare
+  198:9   warning  'newCell' is already defined                no-redeclare
+  200:9   warning  'newText' is already defined                no-redeclare
+  206:10  warning  'clearTable' is defined but never used      no-unused-vars
+  209:3   warning  'WaveDrom' is not defined                   no-undef
+  213:10  warning  'submitAnswers' is defined but never used   no-unused-vars
+  218:7   warning  'q1' is assigned a value but never used     no-unused-vars
+  219:5   warning  'q2' is assigned a value but never used     no-unused-vars
+  220:5   warning  'q3' is assigned a value but never used     no-unused-vars
+  221:5   warning  'q4' is assigned a value but never used     no-unused-vars
+  222:5   warning  'q5' is assigned a value but never used     no-unused-vars
+  228:8   warning  'i' is not defined                          no-undef
+  228:15  warning  'i' is not defined                          no-undef
+  228:27  warning  'i' is not defined                          no-undef
+  229:20  warning  'i' is not defined                          no-undef
+  229:35  warning  'i' is not defined                          no-undef
+  230:37  warning  'i' is not defined                          no-undef
+  232:42  warning  'i' is not defined                          no-undef
+  247:10  warning  'submitAnswers2' is defined but never used  no-unused-vars
+  252:7   warning  'q1' is assigned a value but never used     no-unused-vars
+  253:5   warning  'q2' is assigned a value but never used     no-unused-vars
+  254:5   warning  'q3' is assigned a value but never used     no-unused-vars
+  255:5   warning  'q4' is assigned a value but never used     no-unused-vars
+  256:5   warning  'q5' is assigned a value but never used     no-unused-vars
+  262:8   warning  'i' is not defined                          no-undef
+  262:15  warning  'i' is not defined                          no-undef
+  262:27  warning  'i' is not defined                          no-undef
+  263:20  warning  'i' is not defined                          no-undef
+  263:35  warning  'i' is not defined                          no-undef
+  264:37  warning  'i' is not defined                          no-undef
+  266:42  warning  'i' is not defined                          no-undef
+
+✖ 43 problems (0 errors, 43 warnings)
+

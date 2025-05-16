@@ -1,0 +1,86 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If N number of wires are present in circuit then maximum how many number of single stuck at fault is possible?",
+      "answers": {
+        "a": "N",
+        "b": "N/2",
+        "c": "2N",
+        "d": "N-1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": " For each wire in the circuit, there can be two types of stuck-at faults (Stuck-at-0 and Stuck-at-1). Hence, for N wires, the maximum number of single stuck-at faults possible is 2N.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If N number of wires are present in circuit then maximum how many number of multiple stuck at fault is possible?",
+      "answers": {
+        "a": "((3^N) - 1)",
+        "b": "((2^N) - 1)",
+        "c": "(3^N)",
+        "d": "((3^N) + 1)"
+      },
+      "explanations": {
+        "a": " For N wires, each wire can have three possible states (stuck-at-0, stuck-at-1, or no fault). For multiple stuck-at faults, the maximum possible combinations are 3^N, excluding the case where no faults occur, hence (3^N - 1).",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Identify the correct outputs for a 4 to 2 priority encoder with inputs - D0, D1, D2 and D3.",
+      "answers": {
+        "a": "D3' + D1, D1D2'",
+        "b": "D3 + D1, D1'D2",
+        "c": "D3' + D1D2, D1 + D3",
+        "d": "D3 + D1D2', D2 + D3"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "In a 4-to-2 priority encoder, the output is determined by the highest priority input. If D3 is active, it takes precedence, and the correct outputs are D3 + D1D2' for the first output, and D2 + D3 for the second."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If two inputs are active on a priority encoder, the higher value which will be coded on the output.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "In a priority encoder, if two inputs are active, the higher-priority input (higher value) will be encoded on the output, as it takes precedence over the lower-priority input.",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of this following is true representation of A at stuck at one fault?",
+      "answers": {
+        "a": "A/1",
+        "b": "A s-a-1",
+        "c": "Both A & B",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "Both A/1 and A s-a-1 can be used to represent a Stuck-at-1 (SA1) fault, where the signal is permanently stuck at logic 1.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}
