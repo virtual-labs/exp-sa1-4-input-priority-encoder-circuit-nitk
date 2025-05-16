@@ -1,6 +1,4 @@
-### PROCEDURE :
-
-</br>
+### PROCEDURE 
 
 1. Press the respective buttons of D0, D1, D2, D3 to send an input signal.
 
@@ -26,6 +24,6 @@
 
 <center><img src="./images/6.jpg"/></center></br>
 
-7. Use "RESET" button to clear the inputs, table and timing diagram.
+7. Use "Refresh" button to clear the inputs, table and timing diagram.
 
 <center><img src="./images/7.jpg"/></center></br>
