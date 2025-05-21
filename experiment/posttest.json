@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How many inputs will a decimal-to-BCD encoder have?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "4",
+        "b": "8",
+        "c": "10",
+        "d": "16"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "A decimal-to-BCD encoder has 10 inputs, corresponding to the decimal digits 0 through 9, which are encoded into their Binary Coded Decimal (BCD) representation.",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The process of recording music on any recorder is called  _____________ .",
+      "answers": {
+        "a": "Multiplexing",
+        "b": "Encoding",
+        "c": "Decoding",
+        "d": "DeMultiplexing"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Recording music in a recorder involves converting analog signals into a digital format, which is called encoding.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The discrepancy of 0 output due to all inputs being 0 or D0, being 0 is resolved by using additional input known as _____________ .",
+      "answers": {
+        "a": "Enable",
+        "b": "Disable",
+        "c": "Strock",
+        "d": "Clock"
+      },
+      "explanations": {
+        "a": "The discrepancy of a 0 output due to all inputs being 0 or D0 being 0 is resolved by using an enable input, which allows the circuit to function correctly only when enabled.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Can an encoder be refered as a multiplexer?",
+      "answers": {
+        "a": "Yes",
+        "b": "No",
+        "c": "Sometimes",
+        "d": "Never"
+      },
+      "explanations": {
+        "a": "",
+        "b": "An encoder is not a transducer because it does not convert one form of energy to another (like a traditional transducer); it only converts input data to a different format (e.g., from decimal to binary).",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Among the following options, what is the function of an encoder?",
+      "answers": {
+        "a": "Assigns quantized values",
+        "b": "Changes quantized to binary values",
+        "c": "Changes quantized to numerical values",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "An encoder converts quantized input values into their corresponding binary representation, effectively changing them into binary values.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
